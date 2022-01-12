@@ -1,0 +1,14 @@
+name: LukynkaCore
+version: '1.0-SNAPSHOT'
+main: cz.lukynka.core.Main
+api-version: 1.18
+authors: [ LukynkaCZE ]
+commands:
+  gms:
+    description: a
+  gmc:
+    description: b
+  gma:
+    description: c
+  gmsp:
+    description: d

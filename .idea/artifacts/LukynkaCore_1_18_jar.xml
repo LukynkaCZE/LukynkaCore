@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LukynkaCore_1_18:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LukynkaCore_1_18_jar</output-path>
+    <root id="archive" name="LukynkaCore_1_18.jar">
+      <element id="module-output" name="LukynkaCore_1_18" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../LukynkaAPI/out/artifacts/LukynkaAPI/LukynkaAPI.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

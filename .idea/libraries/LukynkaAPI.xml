@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="LukynkaAPI">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../LukynkaAPI/out/artifacts/LukynkaAPI/LukynkaAPI.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

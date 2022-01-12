@@ -1,0 +1,7 @@
+prefix: "&8[&6LukynkaCore&8] "
+errorPrefix: "&8[&4LukynkaCore&8] "
+
+broadcastOnLoad: true
+broadcastAuthorOnLoad: true
+
+permissionMessage: "&cYou don't have permissions to use this command!"
