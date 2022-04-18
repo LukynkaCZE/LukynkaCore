@@ -1,6 +1,7 @@
 package cz.lukynka.core.commands;
 
 import cz.lukynka.api.Chat;
+import cz.lukynka.api.Logger;
 import cz.lukynka.api.StringUtils;
 import cz.lukynka.core.Main;
 import org.bukkit.GameMode;
@@ -18,10 +19,11 @@ public class Gamemode implements CommandExecutor {
     Main main;
     public Gamemode(Main plugin) {
         this.main = plugin;
-        Objects.requireNonNull(plugin.getCommand("gmc")).setExecutor(this);
-        Objects.requireNonNull(plugin.getCommand("gms")).setExecutor(this);
-        Objects.requireNonNull(plugin.getCommand("gma")).setExecutor(this);
-        Objects.requireNonNull(plugin.getCommand("gmsp")).setExecutor(this);
+        String[] cmds = {"gmc", "gms", "gma", "gmsp"};
+        for (String cmd : cmds) {
+            Objects.requireNonNull(plugin.getCommand(cmd)).setExecutor(this);
+            Logger.fine("Loaded command " +cmd);
+        }
     }
 
 
@@ -49,12 +51,9 @@ public class Gamemode implements CommandExecutor {
                         setGamemode(player, GameMode.SPECTATOR);
                         return true;
                 }
-                return true;
 
-        } else {
-
-            return true;
         }
+        return true;
 
     }
 
