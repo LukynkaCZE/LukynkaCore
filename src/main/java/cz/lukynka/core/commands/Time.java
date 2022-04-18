@@ -62,7 +62,7 @@ public class Time implements CommandExecutor {
     public void setTime(Player player, long time, String timeName) {
         player.getWorld().setTime(time);
         String worldName = StringUtils.capitalize(player.getWorld().getName().toLowerCase(Locale.ROOT));
-        Chat.sendTranslated(player, main.prefix +"&7Time in world &b" +worldName +"&7to &e" +timeName);
+        Chat.sendTranslated(player, main.prefix +"&7Time in world &b" +worldName +"&7 to &e" +timeName);
     }
 
 

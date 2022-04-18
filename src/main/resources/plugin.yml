@@ -1,5 +1,5 @@
 name: LukynkaCore
-version: '1.1'
+version: '1.1.2'
 main: cz.lukynka.core.Main
 api-version: 1.18
 authors: [ LukynkaCZE ]
@@ -12,3 +12,11 @@ commands:
     description: c
   gmsp:
     description: d
+  day:
+    description: e
+  night:
+    description: f
+  sunrise:
+    description: g
+  sunset:
+    description: h
