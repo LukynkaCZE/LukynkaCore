@@ -3,6 +3,7 @@ package cz.lukynka.core;
 import cz.lukynka.api.Chat;
 import cz.lukynka.api.Logger;
 import cz.lukynka.core.commands.Gamemode;
+import cz.lukynka.core.commands.Time;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;
@@ -38,6 +39,7 @@ public final class Main extends JavaPlugin {
 
         //Commands
         new Gamemode(this);
+        new Time(this);
 
 
 
